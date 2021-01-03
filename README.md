@@ -157,7 +157,7 @@ Contributions are what make the open source community such an amazing place to b
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+Distributed under the GNU General Public License v3.0. See `LICENSE` for more information.
 
 
 
@@ -194,4 +194,4 @@ Project Link: [https://github.com/TamrielNetwork/dot-files](https://github.com/T
 [issues-shield]: https://img.shields.io/github/issues/TamrielNetwork/repo.svg?style=for-the-badge
 [issues-url]: https://github.com/TamrielNetwork/repo/issues
 [license-shield]: https://img.shields.io/github/license/TamrielNetwork/repo.svg?style=for-the-badge
-[license-url]: https://github.com/TamrielNetwork/repo/blob/master/LICENSE.txt
+[license-url]: https://github.com/TamrielNetwork/repo/LICENSE
