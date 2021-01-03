@@ -186,12 +186,12 @@ Project Link: [https://github.com/TamrielNetwork/dot-files](https://github.com/T
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/TamrielNetwork/repo.svg?style=for-the-badge
-[contributors-url]: https://github.com/TamrielNetwork/repo/graphs/contributors
+[contributors-url]: https://github.com/TamrielNetwork/dot-files/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/TamrielNetwork/repo.svg?style=for-the-badge
-[forks-url]: https://github.com/TamrielNetwork/repo/network/members
+[forks-url]: https://github.com/TamrielNetwork/dot-files/network/members
 [stars-shield]: https://img.shields.io/github/stars/TamrielNetwork/repo.svg?style=for-the-badge
-[stars-url]: https://github.com/TamrielNetwork/repo/stargazers
+[stars-url]: https://github.com/TamrielNetwork/dot-files/stargazers
 [issues-shield]: https://img.shields.io/github/issues/TamrielNetwork/repo.svg?style=for-the-badge
-[issues-url]: https://github.com/TamrielNetwork/repo/issues
+[issues-url]: https://github.com/TamrielNetwork/dot-files/issues
 [license-shield]: https://img.shields.io/github/license/TamrielNetwork/repo.svg?style=for-the-badge
 [license-url]: https://github.com/TamrielNetwork/dot-files/blob/main/LICENSE
