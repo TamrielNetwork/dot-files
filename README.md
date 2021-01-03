@@ -194,4 +194,4 @@ Project Link: [https://github.com/TamrielNetwork/dot-files](https://github.com/T
 [issues-shield]: https://img.shields.io/github/issues/TamrielNetwork/repo.svg?style=for-the-badge
 [issues-url]: https://github.com/TamrielNetwork/repo/issues
 [license-shield]: https://img.shields.io/github/license/TamrielNetwork/repo.svg?style=for-the-badge
-[license-url]: https://github.com/TamrielNetwork/dot-files/LICENSE
+[license-url]: https://github.com/TamrielNetwork/dot-files/blob/main/LICENSE
