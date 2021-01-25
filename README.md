@@ -159,9 +159,10 @@ Project Link: [https://github.com/TamrielNetwork/dot-files](https://github.com/T
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 
-* [i3, i3 status and urxvt config - KevinScruff(Account wiped/deleted)](https://github.com/KevinScruff)
+* [i3-gaps, i3 status and urxvt config - KevinScruff](https://github.com/KevinScruff)
 * [urxvt - exg](https://github.com/exg/rxvt-unicode)
-* [i3 + i3 status - i3](https://github.com/i3)
+* [i3 status - i3](https://github.com/i3)
+* [i3-gaps - Airblader](https://github.com/Airblader/i3)
 
 
 
