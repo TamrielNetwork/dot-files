@@ -148,6 +148,7 @@ Project Link: [https://github.com/TamrielNetwork/dot-files](https://github.com/T
 * [urxvt - exg](https://github.com/exg/rxvt-unicode)
 * [i3 status - i3](https://github.com/i3)
 * [i3-gaps - Airblader](https://github.com/Airblader/i3)
+* [Background - wall.alphacoders](https://wall.alphacoders.com/big.php?i=42989)
 
 
 
