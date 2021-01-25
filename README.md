@@ -83,7 +83,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Screenshot][product-screenshot]]
+![Screenshot][product-screenshot]
 
 <!-- GETTING STARTED -->
 ## Getting Started
