@@ -102,6 +102,7 @@ To get a local copy up and running follow these simple steps.
    ```sh
    cp -r dot-files/* ~/
    ```
+Important: Please note that this will replace your existing configuration, please check for compatibility before installing!
 
 <!-- ROADMAP -->
 ## Roadmap
