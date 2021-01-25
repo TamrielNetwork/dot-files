@@ -66,6 +66,7 @@
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
+    <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
@@ -103,6 +104,25 @@ To get a local copy up and running follow these simple steps.
    cp -r dot-files/* ~/
    ```
 Important: Please note that this will replace your existing configuration, please check for compatibility before installing!
+
+
+
+<!-- USAGE EXAMPLES -->
+## Usage
+
+1. Reboot your system
+   ```sh
+   reboot
+   ```
+2. Log into user (not root) account
+3. Use .xinitrc to start the window-manager
+   ```sh
+   startx
+   ```
+
+_For more examples, please refer to the [Documentation](https://example.com)_
+
+
 
 <!-- ROADMAP -->
 ## Roadmap
