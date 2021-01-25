@@ -104,7 +104,7 @@ To get a local copy up and running follow these simple steps.
    ```
 2. Copy content to your Home-Directory
    ```sh
-   cp dot-files/* ~/
+   cp -r dot-files/* ~/
    ```
 
 
