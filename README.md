@@ -85,16 +85,6 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-
-
-### Built With
-
-* []()
-* []()
-* []()
-
-
-
 <!-- GETTING STARTED -->
 ## Getting Started
 
@@ -102,10 +92,8 @@ To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
   ```sh
-  npm install npm@latest -g
+  yay -S feh rofi ttf-font-awesome networkmanager network-manager-applet i3-gaps playerctl pulseaudio npm pavucontrol picom
   ```
 
 ### Installation
@@ -114,9 +102,9 @@ This is an example of how to list things you need to use the software and how to
    ```sh
    git clone https://github.com/TamrielNetwork/dot-files.git
    ```
-2. Install NPM packages
+2. Copy content to your Home-Directory
    ```sh
-   npm install
+   cp dot-files/* ~/
    ```
 
 
@@ -160,7 +148,7 @@ Distributed under the GNU General Public License v3.0. See `LICENSE` for more in
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@TamrielN](https://twitter.com/TamrielN) - Twitter
+Leopold Meinel - [@TamrielN](https://twitter.com/TamrielN) - Twitter
 
 Leopold Meinel - [contact@tamriel.me](mailto:contact@tamriel.me) - email
 
