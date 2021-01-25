@@ -83,7 +83,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![Screenshot][product-screenshot]
+[![Screenshot][product-screenshot]](https://github.com/TamrielNetwork/dot-files/blob/main/images/screenshot.png)
 
 <!-- GETTING STARTED -->
 ## Getting Started
