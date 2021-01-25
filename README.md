@@ -83,7 +83,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Screenshot][product-screenshot]](./images/screenshot.png)
 
 <!-- GETTING STARTED -->
 ## Getting Started
