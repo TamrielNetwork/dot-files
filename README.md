@@ -171,9 +171,9 @@ Project Link: [https://github.com/TamrielNetwork/dot-files](https://github.com/T
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 
-* []()
-* []()
-* []()
+* [i3, i3 status and urxvt config - KevinScruff](github.com/KevinScruff)
+* [urxvt - exg](https://github.com/exg/rxvt-unicode)
+* [i3 + i3 status - i3](https://github.com/i3)
 
 
 
