@@ -83,7 +83,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Screenshot][product-screenshot]](./images/screenshot.png)
+[![Screenshot][product-screenshot]](https://example.com)
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -180,3 +180,4 @@ Project Link: [https://github.com/TamrielNetwork/dot-files](https://github.com/T
 [issues-url]: https://github.com/TamrielNetwork/dot-files/issues
 [license-shield]: https://img.shields.io/github/license/TamrielNetwork/dot-files?style=for-the-badge
 [license-url]: https://github.com/TamrielNetwork/dot-files/blob/main/LICENSE
+[product-screenshot]: images/screenshot.png
