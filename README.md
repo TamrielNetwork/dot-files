@@ -103,7 +103,7 @@ To get a local copy up and running follow these simple steps.
    ```sh
    rm -rf dot-files/.git dot-files/.github dot-files/images dot-files/README.md dot-files/LICENSE
    ```
-3. Copy content to your Home-Directory
+3. Copy content to the users Home-Directory
    ```sh
    cp -r dot-files/* ~/
    ```
@@ -121,7 +121,7 @@ To get a local copy up and running follow these simple steps.
    ```sh
    sudo reboot
    ```
-2. Log into user (not root) account
+2. Log into user-account (not root)
 3. Use ~/.xinitrc to start the window-manager
    ```sh
    startx
