@@ -103,8 +103,11 @@ To get a local copy up and running follow these simple steps.
    ```sh
    cp -r dot-files/* ~/
    ```
-Important: Please note that this will replace your existing configuration, please check for compatibility before installing!
 
+**This will replace your existing configuration, check for compatibility!**
+Unnecessary Files/Folders:
+.git; .github; images;
+README.md; LICENSE(**Read Before Distributing**)
 
 
 <!-- USAGE EXAMPLES -->
