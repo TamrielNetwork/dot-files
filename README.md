@@ -90,7 +90,7 @@ To get a local copy up and running follow these simple steps.
 ### Prerequisites
 
   ```sh
-  yay -S feh rofi ttf-font-awesome networkmanager network-manager-applet i3-gaps playerctl pulseaudio npm pavucontrol picom
+  yay -S feh rofi ttf-font-awesome networkmanager network-manager-applet i3-gaps playerctl pulseaudio npm pavucontrol picom i3status i3lock arc-gtk-theme paper-icon-theme-git
   ```
 
 ### Installation
@@ -112,15 +112,14 @@ Important: Please note that this will replace your existing configuration, pleas
 
 1. Reboot your system
    ```sh
-   reboot
+   sudo reboot
    ```
 2. Log into user (not root) account
-3. Use .xinitrc to start the window-manager
+3. Use ~/.xinitrc to start the window-manager
    ```sh
    startx
    ```
 
-_For more examples, please refer to the [Documentation](https://example.com)_
 
 
 
