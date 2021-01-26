@@ -99,11 +99,11 @@ To get a local copy up and running follow these simple steps.
    ```sh
    git clone https://github.com/TamrielNetwork/dot-files.git
    ```
-0. Remove unnecessary files/folders from the repo
+2. Remove unnecessary files/folders from the repo (optional)
    ```sh
    rm -rf dot-files/.git dot-files/.github dot-files/images dot-files/README.md dot-files/LICENSE
    ```
-2. Copy content to your Home-Directory
+3. Copy content to your Home-Directory
    ```sh
    cp -r dot-files/* ~/
    ```
