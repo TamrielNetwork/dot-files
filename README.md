@@ -110,7 +110,7 @@ To get a local copy up and running follow these simple steps.
 
 
    > **:warning: WARNING: Overwrites configuration.**  
-   > Check for compatibility before installing and make sure that you followed all the steps correctly.
+   > Check for compatibility before installing and make sure that you followed all steps correctly.
 
 
 
