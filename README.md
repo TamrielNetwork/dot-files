@@ -108,7 +108,8 @@ To get a local copy up and running follow these simple steps.
    cp -r dot-files/* ~/
    ```
 
-> :warning: **Replaces current configuration**: Check for compatibility!
+ > **⚠ WARNING: Replaces your config.**  
+ > Check for compatibility before installing!
 
 
 
