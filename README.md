@@ -10,8 +10,6 @@
 *** github_username, repo_name, twitter_handle, email, project_title, project_description
 -->
 
-
-
 <!-- PROJECT SHIELDS -->
 <!--
 *** I'm using markdown "reference style" links for readability.
@@ -25,7 +23,6 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
-
 
 <!-- PROJECT LOGO -->
 <br />
@@ -50,8 +47,6 @@
   </p>
 </p>
 
-
-
 <!-- TABLE OF CONTENTS -->
 <details open="open">
   <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
@@ -75,8 +70,6 @@
   </ol>
 </details>
 
-
-
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
@@ -88,6 +81,7 @@
 To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
+
 1. Install git and the Yay-AUR-Helper
    ```sh
    sudo pacman -S git
@@ -115,11 +109,8 @@ To get a local copy up and running follow these simple steps.
    cp -r dot-files/* ~/
    ```
 
-
    > **:warning: WARNING: Overwrites configuration.**  
    > Check for compatibility before installing and make sure that you followed all steps correctly.
-
-
 
 <!-- USAGE EXAMPLES -->
 ## Usage
@@ -134,15 +125,10 @@ To get a local copy up and running follow these simple steps.
    startx
    ```
 
-
-
-
 <!-- ROADMAP -->
 ## Roadmap
 
 See the [open issues](https://github.com/TamrielNetwork/dot-files/issues) for a list of proposed features (and known issues).
-
-
 
 <!-- CONTRIBUTING -->
 ## Contributing
@@ -155,14 +141,10 @@ Contributions are what make the open source community such an amazing place to b
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-
-
 <!-- LICENSE -->
 ## License
 
 Distributed under the GNU General Public License v3.0. See `LICENSE` for more information.
-
-
 
 <!-- CONTACT -->
 ## Contact
@@ -173,8 +155,6 @@ Leopold Meinel - [contact@tamriel.me](mailto:contact@tamriel.me) - email
 
 Project Link: [https://github.com/TamrielNetwork/dot-files](https://github.com/TamrielNetwork/dot-files)
 
-
-
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 
@@ -182,10 +162,6 @@ Project Link: [https://github.com/TamrielNetwork/dot-files](https://github.com/T
 * [i3-gaps/status and urxvt config - KevinScruff](https://github.com/KevinScruff)
 * [urxvt pearls - muennich](https://github.com/muennich/urxvt-perls)
 * [Background - alphacoders](https://wall.alphacoders.com/big.php?i=42989)
-
-
-
-
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
