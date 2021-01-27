@@ -82,7 +82,7 @@ To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 
-1. Install git and the Yay-AUR-Helper
+1. Install git and yay
    ```sh
    sudo pacman -S git
    git clone https://aur.archlinux.org/yay.git
