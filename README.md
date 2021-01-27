@@ -91,9 +91,6 @@ To get a local copy up and running follow these simple steps.
 1. Install git and the Yay-AUR-Helper
    ```sh
    sudo pacman -S git
-   ```
-   ```sh
-   cd ~
    git clone https://aur.archlinux.org/yay.git
    cd yay
    makepkg -si
