@@ -94,8 +94,8 @@ To get a local copy up and running follow these simple steps.
    yay -S feh rofi ttf-font-awesome networkmanager network-manager-applet i3-gaps playerctl pulseaudio npm pavucontrol picom i3status i3lock arc-gtk-theme paper-icon-theme-git
    ```
 
-   > **:warning: WARNING: Remove your DisplayManager.**  
-   > This setup uses startx and .xinitrc. DisplayMangers like LightDM may cause incompatibilities!
+   > **:exclamation: NOTICE: Remove your DisplayManager.**  
+   > This setup uses startx and .xinitrc. DisplayMangers like LightDM may cause incompatibilities.
 
 ### Installation
 
