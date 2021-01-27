@@ -88,18 +88,20 @@
 To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
-1. Install git and clone the Yay-AUR-Helper
-  ```sh
-  sudo pacman -S git
-  cd ~
-  git clone https://aur.archlinux.org/yay.git
-  cd yay
-  makepkg -si
-  ```
+1. Install git and the Yay-AUR-Helper
+   ```sh
+   sudo pacman -S git
+   ```
+   ```sh
+   cd ~
+   git clone https://aur.archlinux.org/yay.git
+   cd yay
+   makepkg -si
+   ```
 2. Install dependencies
-  ```sh
-  yay -S feh rofi ttf-font-awesome networkmanager network-manager-applet i3-gaps playerctl pulseaudio npm pavucontrol picom i3status i3lock arc-gtk-theme paper-icon-theme-git
-  ```
+   ```sh
+   yay -S feh rofi ttf-font-awesome networkmanager network-manager-applet i3-gaps playerctl pulseaudio npm pavucontrol picom i3status i3lock arc-gtk-theme paper-icon-theme-git
+   ```
 
 ### Installation
 
