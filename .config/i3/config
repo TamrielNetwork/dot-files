@@ -1,7 +1,7 @@
 # -----------Folow Me------------
 # My Github: github.com/KevinScruff
 # -------------------------------
-exec_always /usr/lib/notification-daemon-1.0/notification-daemon;
+exec_always /usr/lib/notification-daemon-1.0/notification-daemon
 
 # --------------------------------------
 # ------------SET MOD KEY---------------
