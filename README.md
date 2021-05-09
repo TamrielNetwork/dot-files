@@ -89,7 +89,12 @@ To get a local copy up and running follow these simple steps.
    cd yay
    makepkg -si
    ```
-2. Install dependencies
+2. Install Arc-Dark rofi-theme
+   ```sh
+   git clone https://github.com/davatorium/rofi-themes
+   cp -r rofi-themes/Official Themes/Arc-Dark.rasi ~/.rofi/rofi-themes/Official Themes/Arc-Dark.rasi
+   ```
+3. Install dependencies
    ```sh
    yay -S feh rofi rxvt-unicode adobe-source-code-pro-fonts ttf-font-awesome networkmanager network-manager-applet i3-gaps playerctl pulseaudio npm pavucontrol picom i3status i3lock arc-gtk-theme paper-icon-theme-git xorg-xinit xorg-server
    ```
@@ -107,7 +112,8 @@ To get a local copy up and running follow these simple steps.
    ```sh
    rm -rf dot-files/.git dot-files/.github dot-files/images dot-files/README.md dot-files/LICENSE
    ```
-3. Copy content to the users Home-Directory
+3. Go through the files and change any paths that are different on your system to make sure everything works!
+4. Copy content to the users Home-Directory
    ```sh
    cp -r dot-files/* ~/
    ```
