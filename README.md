@@ -28,7 +28,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/TamrielNetwork/dot-files">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src=".github/images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">ArchLinux and i3 Dot-Files</h3>
@@ -73,7 +73,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Screenshot][product-screenshot]](https://github.com/TamrielNetwork/dot-files/blob/main/images/screenshot.png)
+[![Screenshot][product-screenshot]](https://github.com/TamrielNetwork/dot-files/blob/main/.github/images/screenshot.png)
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -110,7 +110,7 @@ To get a local copy up and running follow these simple steps.
    ```
 2. Remove unnecessary files/folders from the repo (optional)
    ```sh
-   rm -rf dot-files/.git dot-files/.github dot-files/images dot-files/README.md dot-files/LICENSE
+   rm -rf dot-files/.git dot-files/.github dot-files/README.md dot-files/LICENSE
    ```
 3. Go through the files and change any paths that are different on your system to make sure everything works!
 4. Copy content to the users Home-Directory
@@ -184,4 +184,4 @@ Project Link: [https://github.com/TamrielNetwork/dot-files](https://github.com/T
 [issues-url]: https://github.com/TamrielNetwork/dot-files/issues
 [license-shield]: https://img.shields.io/github/license/TamrielNetwork/dot-files?style=for-the-badge
 [license-url]: https://github.com/TamrielNetwork/dot-files/blob/main/LICENSE
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: .github/images/screenshot.png

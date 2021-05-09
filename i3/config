@@ -1,0 +1,304 @@
+# -----------Folow Me------------
+# My Github: github.com/KevinScruff
+# -------------------------------
+exec_always /usr/lib/notification-daemon-1.0/notification-daemon
+
+# --------------------------------------
+# ------------SET MOD KEY---------------
+# --------------------------------------
+set $mod Mod4
+set $alt Mod1
+# --------------------------------------
+# --------NEW BORDER SETTINGS-----------
+# --------------------------------------
+new_window pixel 2
+new_float normal 1
+# --------------------------------------
+# -----------BORDER SETTINGS------------
+# --------------------------------------
+## change border
+bindsym $mod+u border none
+bindsym $mod+Shift+n border normal 0
+bindsym $mod+y border pixel 2
+bindsym $mod+n border normal 1
+## color border
+### class		border  backgr. text	indicator child_border
+client.focused		#1d1d1d #65c0e7 #031016 #4585a1   #65c0e7
+client.focused_inactive #253333 #2d4753 #d2edf9 #4585a1   #3d768f
+client.unfocused	#253333 #2d4753 #d2edf9 #4585a1   #3d768f
+client.urgent		#253333 #8fd3f0 #031116 #314242   #314242
+client.placeholder	#000000 #0C0C0C #e9f6fc #000000   #0C0C0C
+client.background	#ffaaee
+# --------------------------------------
+# ----------WORKSPACE SETTINGS----------
+# --------------------------------------
+## switch to workspace
+bindsym $mod+1 workspace "0"
+bindsym $mod+2 workspace "1"
+bindsym $mod+3 workspace "2"
+bindsym $mod+4 workspace "3"
+bindsym $mod+5 workspace "4"
+bindsym $mod+6 workspace "5"
+bindsym $mod+7 workspace "6"
+bindsym $mod+8 workspace "7"
+bindsym $mod+9 workspace "8"
+bindsym $mod+0 workspace "9"
+## move focused container to workspace
+bindsym $mod+Shift+1 move container to workspace "0"
+bindsym $mod+Shift+2 move container to workspace "1"
+bindsym $mod+Shift+3 move container to workspace "2"
+bindsym $mod+Shift+4 move container to workspace "3"
+bindsym $mod+Shift+5 move container to workspace "4"
+bindsym $mod+Shift+6 move container to workspace "5"
+bindsym $mod+Shift+7 move container to workspace "6"
+bindsym $mod+Shift+8 move container to workspace "7"
+bindsym $mod+Shift+9 move container to workspace "8"
+bindsym $mod+Shift+0 move container to workspace "9"
+# --------------------------------------
+# -----------RESIZE SETTINGS------------
+# --------------------------------------
+## resize window (you can also use the mouse for that)
+mode "resize" {
+        # These bindings trigger as soon as you enter the resize mode
+
+        # Pressing left will shrink the window’s width.
+        # Pressing right will grow the window’s width.
+        # Pressing up will shrink the window’s height.
+        # Pressing down will grow the window’s height.
+        bindsym j resize shrink width 10 px or 10 ppt
+        bindsym k resize grow height 10 px or 10 ppt
+        bindsym l resize shrink height 10 px or 10 ppt
+        bindsym semicolon resize grow width 10 px or 10 ppt
+
+        # same bindings, but for the arrow keys
+        bindsym Left resize shrink width 10 px or 10 ppt
+        bindsym Down resize grow height 10 px or 10 ppt
+        bindsym Up resize shrink height 10 px or 10 ppt
+        bindsym Right resize grow width 10 px or 10 ppt
+
+        # back to normal: Enter or Escape or $mod+r
+bindsym --release Num_Lock  exec pkill -SIGRTMIN+11 i3blocks
+        bindsym Return mode "default"
+        bindsym Escape mode "default"
+        bindsym $mod+r mode "default"
+}
+
+bindsym $mod+r mode "resize"
+# --------------------------------------
+# ----------RE-LOAD SETTINGS------------
+# --------------------------------------
+## reload the configuration file
+bindsym $mod+Shift+c reload
+## restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
+bindsym $mod+Shift+r restart
+# --------------------------------------
+# ------------EXIT SETTINGS-------------
+# --------------------------------------
+# exit i3 (logs you out of your X session)
+bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'Do you want to exit i3?' -B 'Yes, exit i3' 'i3-msg exit'"
+# --------------------------------------
+# ------------SCREEN SHOTER-------------
+# --------------------------------------
+#bindsym --release Print exec scrot $HOME/Images/screenshot-$(ls $HOME/Images | wc -l)-$(date +%F).jpg -q 100
+#bindsym --release Shift+Print exec scrot -q 100 -u $HOME/Images/screenshot-$(date +%Y-%m-%d%H-%M.jpg)
+bindsym --release Print exec scrot $HOME/Images/screenshot/%Y-%m-%d-%T.png
+# --------------------------------------
+# ----------KEYBOARD LAYOUT-------------
+# --------------------------------------
+#exec_always setxkbmap -layout us,ir -option "grp:alt_shift_toggle"
+## if you dont use this shortcut, comment it
+# --------------------------------------
+# ------------SOUND SETTINGS------------
+# --------------------------------------
+## bindsym XF86AudioRaiseVolume exec amixer -q set Master 2dB+ unmute
+## bindsym XF86AudioLowerVolume exec amixer -q set Master 2dB- unmute
+## bindsym XF86AudioMute exec amixer -q set Master toggle
+
+# Pulse Audio controls
+#bindsym Shift+F8 exec --no-startup-id pactl -- set-sink-volume 0 +1% #increase sound volume
+#bindsym Shift+F7 exec --no-startup-id pactl -- set-sink-volume 0 -1% #decrease sound volume
+#bindsym Ctrl+Shift+F7 exec --no-startup-id pactl set-sink-mute 0 toggle # mute sound
+# --------------------------------------
+# ---------SCREEN BRIGHTNESS-------------
+# --------------------------------------
+## bindsym XF86MonBrightnessUp exec xbacklight -inc 20 # increase screen brightness
+## bindsym XF86MonBrightnessDown exec xbacklight -dec 20 # decrease screen brightness
+# --------------------------------------
+# ------------STARTUP APPS--------------
+# --------------------------------------
+## run network manager applet
+####### exec --no-startup-id nm-applet
+## run compton
+exec picom -b
+##exec xrdb -load ~/.Xresourses
+# --------------------------------------
+# -------------FULL SCREEN--------------
+# --------------------------------------
+bindsym $mod+f fullscreen toggle
+# --------------------------------------
+# -----------SET BACKGROUND-------------
+# --------------------------------------
+exec_always --no-startup-id feh --bg-fill ~/Images/stars.jpeg
+#
+# --------------------------------------
+# ---------------RUN ROFI---------------
+# --------------------------------------
+bindsym $mod+d exec "rofi -show drun -sidebar-mode -modi drun,window,ssh -show-icons -theme ~/.rofi/rofi-themes/'Official Themes'/Arc-Dark.rasi"
+# --------------------------------------
+# ------------POWER MANAGER-------------
+# --------------------------------------
+bindsym $mod+Shift+x mode "$mode_system"
+set $mode_system (l)ock, (e)xit, switch_(u)ser, (s)uspend, (h)ibernate, (r)eboot, (Ctrl+s)leep, (Shift+s)hutdown
+mode "$mode_system" {
+    bindsym l exec --no-startup-id "i3lock -i ~/Images/Wallpaper-Cyan.png'", mode "default"
+    bindsym s exec --no-startup-id "systemctl suspend", mode "default"
+    bindsym u exec --no-startup-id "systemctl switch_user", mode "default"
+    bindsym e exec --no-startup-id "systemctl logout", mode "default"
+    bindsym h exec --no-startup-id "systemctl hibernate", mode "default"
+    bindsym r exec --no-startup-id "systemctl reboot", mode "default"
+    bindsym Shift+s exec --no-startup-id "systemctl poweroff", mode "default"
+    bindsym Ctrl+s exec --no-startup-id "systemctl hybrid-sleep"
+
+    ## exit system mode: "Enter" or "Escape"
+    bindsym Return mode "default"
+    bindsym Escape mode "default"
+}
+# --------------------------------------
+# ------------FONT SETTINGS-------------
+# --------------------------------------
+font pango: Source Code Pro 9
+# --------------------------------------
+# ------------SPLIT SETTINGS------------
+# --------------------------------------
+## split in horizontal orientation
+bindsym $mod+h split h
+## split in vertical orientation
+bindsym $mod+v split v
+# --------------------------------------
+# -------------CHANGE LAYOUT------------
+# --------------------------------------
+## change container layout (stacked, tabbed, toggle split)
+bindsym $mod+s layout stacking
+bindsym $mod+w layout tabbed
+bindsym $mod+e layout toggle split
+# --------------------------------------
+# -------------SCREEN LOCK--------------
+# --------------------------------------
+## screen before suspend. Use loginctl lock-session to lock your screen.
+#exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
+
+
+#--------------------------------------
+#------------ XRESOURSES --------------
+#--------------------------------------
+
+exec --no-startup-id xrdb -load ~/.Xresources
+
+# --------------------------------------
+# -----------START TERMINAL-------------
+# --------------------------------------
+bindsym $mod+Return exec urxvt
+# --------------------------------------
+# ------------FOCUS SETTINGS------------
+# --------------------------------------
+## change focus
+bindsym $mod+j focus left
+bindsym $mod+k focus down
+bindsym $mod+l focus up
+bindsym $mod+semicolon focus right
+## alternatively, you can use the cursor keys:
+bindsym $mod+Left focus left
+bindsym $mod+Down focus down
+bindsym $mod+Up focus up
+bindsym $mod+Right focus right
+## move focused window
+bindsym $mod+Shift+j move left
+bindsym $mod+Shift+k move down
+bindsym $mod+Shift+l move up
+bindsym $mod+Shift+semicolon move right
+## alternatively, you can use the cursor keys:
+bindsym $mod+Shift+Left move left
+bindsym $mod+Shift+Down move down
+bindsym $mod+Shift+Up move up
+bindsym $mod+Shift+Right move right
+# --------------------------------------
+# ------------KILL FOCUSED W------------
+# --------------------------------------
+## kill focused window
+bindsym $mod+Shift+q kill
+## for_window [class=".*"] floating enable
+# --------------------------------------
+# ------------I3BAR SETTINGS------------
+# --------------------------------------
+bar {
+        position top
+        status_command i3status
+        separator_symbol ""
+        colors {
+                statusline #bde4f5
+                background #07212c
+                separator #91d2ee
+                focused_workspace  #94d3ee #94d3ee #031116
+                inactive_workspace #0a3142  #0a3142 #bde4f5
+                binding_mode       #62c5ea #62c5ea #031116
+                urgent_workspace   #62c5ea #62c5ea #031116
+}
+        font pango:Source Code Pro for Powerline, FontAwesome Regular, Icons 9
+	#font pango:monospace 8.8
+}
+# --------------------------------------
+# -------------OTHER SETTINGS-----------
+# --------------------------------------
+## toggle tiling / floating
+bindsym $mod+Shift+space floating toggle
+## change focus between tiling / floating windows
+bindsym $mod+space focus mode_toggle
+## focus the parent container
+bindsym $mod+a focus parent
+floating_modifier $mod
+focus_follows_mouse no
+
+# --------------------------------------
+# -------------GAPS SETTINGS------------
+# --------------------------------------
+gaps inner 2
+gaps outer 1
+smart_gaps on
+smart_borders on
+#set $mode_gaps Gaps: (o) outer, (i) inner
+#set $mode_gaps_outer Outer Gaps: +|-|0 (local), Shift + +|-|0 (global)
+#set $mode_gaps_inner Inner Gaps: +|-|0 (local), Shift + +|-|0 (global)
+#bindsym $mod+Shift+g mode "$mode_gaps"
+
+#mode "$mode_gaps" {
+#
+#        bindsym o      mode "$mode_gaps_outer"
+#        bindsym i      mode "$mode_gaps_inner"
+#        bindsym Return mode "default"
+#        bindsym Escape mode "default"
+#}
+#mode "$mode_gaps_inner" {
+#        bindsym plus  gaps inner current plus 5
+#        bindsym minus gaps inner current minus 5
+#        bindsym 0     gaps inner current set 0
+#
+#        bindsym Shift+plus  gaps inner all plus 5
+#        bindsym Shift+minus gaps inner all minus 5
+#        bindsym Shift+0     gaps inner all set 0
+#
+#        bindsym Return mode "default"
+#        bindsym Escape mode "default"
+#}
+#mode "$mode_gaps_outer" {
+#        bindsym plus  gaps outer current plus 5
+#        bindsym minus gaps outer current minus 5
+#        bindsym 0     gaps outer current set 0
+#
+#
+#        bindsym Shift+plus  gaps outer all plus 5
+#        bindsym Shift+minus gaps outer all minus 5
+#        bindsym Shift+0     gaps outer all set 0
+#
+#        bindsym Return mode "default"
+#        bindsym Escape mode "default"
+#}
