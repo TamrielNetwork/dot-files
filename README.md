@@ -96,7 +96,7 @@ To get a local copy up and running follow these simple steps.
    ```
 3. Install dependencies
    ```sh
-   yay -S feh rofi rxvt-unicode adobe-source-code-pro-fonts ttf-font-awesome networkmanager network-manager-applet i3-gaps playerctl pulseaudio npm pavucontrol picom i3status i3lock arc-gtk-theme paper-icon-theme-git xorg-xinit xorg-server
+   yay -S feh rofi rxvt-unicode adobe-source-code-pro-fonts ttf-font-awesome networkmanager network-manager-applet i3-gaps playerctl pulseaudio npm pavucontrol picom i3status i3lock arc-gtk-theme paper-icon-theme-git xorg-xinit xorg-server scrot
    ```
 
    > **:exclamation: NOTICE: Remove your DisplayManager.**  
